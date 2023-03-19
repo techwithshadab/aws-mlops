@@ -68,7 +68,7 @@ def handler(event, context):
         cp.put_job_success_result(jobId=jobId)
     except Exception as e:
         logger.error(e)
-        resppnse = cp.put_job_failure_result(
+        response = cp.put_job_failure_result(
             jobId=jobId,
             failureDetails={
                 'type': 'ConfigurationError',

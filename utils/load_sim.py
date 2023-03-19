@@ -1,7 +1,4 @@
-import threading
 import boto3
-import json
-import time
 import math
 import os
 from botocore.exceptions import ClientError

@@ -4,7 +4,6 @@ import json
 import logging
 import boto3
 import time
-import botocore
 import numpy as np
 import pandas as pd
 from sklearn import preprocessing

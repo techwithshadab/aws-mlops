@@ -1,24 +1,17 @@
 #!/usr/bin/env python
 
-import json
 import io
 import sys
 import os
 import signal
-import traceback
 import flask
 import multiprocessing
 import subprocess
-import tarfile
 import model
 import pandas as pd
 import numpy as np
 import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.optimizers import Adam
-from sklearn import preprocessing
+
 
 # Adds the model.py path to the list
 prefix = '/opt/ml'

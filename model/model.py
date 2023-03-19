@@ -3,14 +3,12 @@ import sys
 import json
 import re
 import traceback
-import tensorflow as tf
 import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
-from tensorflow.keras.optimizers import Adam
 from sklearn import preprocessing
 
 tf.get_logger().setLevel('ERROR')
